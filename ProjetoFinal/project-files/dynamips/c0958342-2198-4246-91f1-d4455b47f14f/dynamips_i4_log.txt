@@ -1,0 +1,59 @@
+Jun 14 16:23:27.194 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 14 16:23:27.194 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60077.
+Jun 14 16:23:27.679 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 14 16:23:27.679 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips 
+Jun 14 16:23:27.679 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips
+Jun 14 16:23:27.679 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\4d4bc045-0656-4adc-a056-86a0d520edc3 
+Jun 14 16:23:27.679 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\4d4bc045-0656-4adc-a056-86a0d520edc3
+Jun 14 16:23:27.679 HYPERVISOR: exec_cmd: vm create IC1 3 c3725 
+Jun 14 16:23:27.694 VM: VM IC1 created.
+Jun 14 16:23:27.694 HYPERVISOR: exec_cmd: vm set_con_tcp_port IC1 5044 
+Jun 14 16:23:27.694 HYPERVISOR: exec_cmd: c3725 get_mac_addr IC1 
+Jun 14 16:23:27.694 HYPERVISOR: exec_cmd: vm set_disk0 IC1 1 
+Jun 14 16:23:27.694 HYPERVISOR: exec_cmd: vm set_exec_area IC1 64 
+Jun 14 16:23:27.694 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:23:27.694 HYPERVISOR: exec_cmd: vm set_idle_pc IC1 0x60a6a1e0 
+Jun 14 16:23:27.694 HYPERVISOR: exec_cmd: vm set_ios IC1 C:/Users/Utilizador/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 14 16:23:27.710 HYPERVISOR: exec_cmd: c3725 set_mac_addr IC1 c203.16d0.0000 
+Jun 14 16:23:27.710 HYPERVISOR: exec_cmd: vm set_nvram IC1 256 
+Jun 14 16:23:27.710 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:23:27.710 HYPERVISOR: exec_cmd: vm slot_add_binding IC1 1 0 NM-16ESW 
+Jun 14 16:23:38.910 HYPERVISOR: exec_cmd: nio create_udp udp-227fd8db-5172-45d5-9a1f-a3575428dbaa 10022 127.0.0.1 10023 
+Jun 14 16:23:39.223 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IC1 0 0 udp-227fd8db-5172-45d5-9a1f-a3575428dbaa 
+Jun 14 16:23:39.223 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:23:39.676 HYPERVISOR: exec_cmd: nio create_udp udp-582438b2-b14b-4a4e-b87c-03b02227ea8f 10028 127.0.0.1 10029 
+Jun 14 16:23:39.676 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IC1 0 1 udp-582438b2-b14b-4a4e-b87c-03b02227ea8f 
+Jun 14 16:23:39.676 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:23:41.675 HYPERVISOR: exec_cmd: nio create_udp udp-d5d14fc1-b4d4-45ea-b2ab-6c1e7ec366e0 10066 127.0.0.1 10067 
+Jun 14 16:23:41.675 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IC1 1 0 udp-d5d14fc1-b4d4-45ea-b2ab-6c1e7ec366e0 
+Jun 14 16:23:41.675 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:23:41.909 HYPERVISOR: exec_cmd: nio create_udp udp-9a78e93b-c215-480c-9e46-cf50421ac75f 10072 127.0.0.1 10073 
+Jun 14 16:23:41.909 HYPERVISOR: exec_cmd: vm slot_add_nio_binding IC1 1 1 udp-9a78e93b-c215-480c-9e46-cf50421ac75f 
+Jun 14 16:23:41.909 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:23:54.924 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 14 16:23:54.939 VM: VM Ghost created.
+Jun 14 16:23:54.939 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Utilizador/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 14 16:23:54.939 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 14 16:23:54.939 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\c3725-advipservicesk9-mz.124-21.image-128.ghost' 
+Jun 14 16:23:54.939 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 14 16:23:54.939 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 14 16:23:54.939 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 14 16:23:55.299 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 14 16:23:55.439 VM: VM Ghost shutdown.
+Jun 14 16:23:55.439 VM: VM Ghost destroyed.
+Jun 14 16:23:55.470 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:23:55.470 HYPERVISOR: exec_cmd: vm set_config IC1 configs\i3_startup-config.cfg 
+Jun 14 16:23:55.470 HYPERVISOR: exec_cmd: vm start IC1 
+Jun 14 16:25:07.105 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:25:07.106 HYPERVISOR: exec_cmd: vm stop IC1 
+Jun 14 16:25:07.486 VM: VM IC1 shutdown.
+Jun 14 16:25:07.487 HYPERVISOR: exec_cmd: vm extract_config IC1 
+Jun 14 16:25:13.188 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:25:13.190 HYPERVISOR: exec_cmd: vm extract_config IC1 
+Jun 14 16:25:13.726 HYPERVISOR: exec_cmd: vm get_status IC1 
+Jun 14 16:25:13.729 HYPERVISOR: exec_cmd: vm extract_config IC1 
+Jun 14 16:25:13.743 HYPERVISOR: exec_cmd: vm delete IC1 
+Jun 14 16:25:13.743 VM: VM IC1 destroyed.
+Jun 14 16:25:13.792 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 14 16:25:13.904 HYPERVISOR: Stopped.
+Jun 14 16:25:13.904 GENERAL: reset done.

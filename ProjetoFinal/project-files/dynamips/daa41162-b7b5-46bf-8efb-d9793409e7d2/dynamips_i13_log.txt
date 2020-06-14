@@ -1,0 +1,65 @@
+Jun 14 16:23:32.505 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 14 16:23:32.505 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60107.
+Jun 14 16:23:32.974 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 14 16:23:32.974 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips 
+Jun 14 16:23:32.974 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips
+Jun 14 16:23:32.974 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\39a074f1-4d2d-49df-b0c2-2fa45f1b38b8 
+Jun 14 16:23:32.974 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\39a074f1-4d2d-49df-b0c2-2fa45f1b38b8
+Jun 14 16:23:32.974 HYPERVISOR: exec_cmd: vm create Boston1 10 c7200 
+Jun 14 16:23:32.990 VM: VM Boston1 created.
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm set_con_tcp_port Boston1 5059 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: c7200 get_mac_addr Boston1 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm slot_add_binding Boston1 0 0 C7200-IO-FE 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm set_disk0 Boston1 0 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm set_exec_area Boston1 64 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm set_idle_pc Boston1 0x601712a8 
+Jun 14 16:23:32.990 HYPERVISOR: exec_cmd: vm set_ios Boston1 C:/Users/Utilizador/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: c7200 set_mac_addr Boston1 ca0a.3594.0000 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm set_nvram Boston1 512 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm set_ram Boston1 512 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm slot_remove_binding Boston1 0 0 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm slot_add_binding Boston1 0 0 C7200-IO-2FE 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:23:33.005 HYPERVISOR: exec_cmd: vm slot_add_binding Boston1 1 0 PA-2FE-TX 
+Jun 14 16:23:44.331 HYPERVISOR: exec_cmd: nio create_udp udp-ff8eec3d-1d89-4c07-bbf5-02c2387d02be 10128 127.0.0.1 10129 
+Jun 14 16:23:44.628 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Boston1 0 0 udp-ff8eec3d-1d89-4c07-bbf5-02c2387d02be 
+Jun 14 16:23:44.628 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:23:45.393 HYPERVISOR: exec_cmd: nio create_udp udp-8e507d2a-56e2-47e6-b617-994985e3d4a5 10136 127.0.0.1 10137 
+Jun 14 16:23:45.409 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Boston1 0 1 udp-8e507d2a-56e2-47e6-b617-994985e3d4a5 
+Jun 14 16:23:45.409 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:23:46.049 HYPERVISOR: exec_cmd: nio create_udp udp-9dec009a-4819-41ed-9d76-2fe648c175d6 10146 127.0.0.1 10147 
+Jun 14 16:23:46.065 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Boston1 1 0 udp-9dec009a-4819-41ed-9d76-2fe648c175d6 
+Jun 14 16:23:46.065 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jun 14 16:24:04.378 VM: VM Ghost created.
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Utilizador/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost' 
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 14 16:24:04.378 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 14 16:24:10.196 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 14 16:24:10.415 VM: VM Ghost shutdown.
+Jun 14 16:24:10.415 VM: VM Ghost destroyed.
+Jun 14 16:24:10.478 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:24:10.478 HYPERVISOR: exec_cmd: vm set_config Boston1 configs\i10_startup-config.cfg 
+Jun 14 16:24:10.478 HYPERVISOR: exec_cmd: vm start Boston1 
+Jun 14 16:24:41.294 HYPERVISOR: exec_cmd: vm extract_config Boston1 
+Jun 14 16:25:09.049 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:25:09.050 HYPERVISOR: exec_cmd: vm stop Boston1 
+Jun 14 16:25:09.354 VM: VM Boston1 shutdown.
+Jun 14 16:25:09.360 HYPERVISOR: exec_cmd: vm extract_config Boston1 
+Jun 14 16:25:13.257 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:25:13.259 HYPERVISOR: exec_cmd: vm extract_config Boston1 
+Jun 14 16:25:13.451 HYPERVISOR: exec_cmd: vm get_status Boston1 
+Jun 14 16:25:13.455 HYPERVISOR: exec_cmd: vm extract_config Boston1 
+Jun 14 16:25:13.476 HYPERVISOR: exec_cmd: vm delete Boston1 
+Jun 14 16:25:13.476 VM: VM Boston1 destroyed.
+Jun 14 16:25:13.505 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 14 16:25:13.645 HYPERVISOR: Stopped.
+Jun 14 16:25:13.646 GENERAL: reset done.

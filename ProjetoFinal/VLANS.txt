@@ -1,8 +1,8 @@
 VLAN 001 - Administração
 
 VLAN 46 - Aveiro Wifi Administração [End-to-End] 
-CORE 1 - 10.7.48.1/24
-CORE 2 - 10.7.48.2/24
+CORE 1 - 10.7.48.46/24
+CORE 2 - 10.7.48.47/24
 
 VLAN 19 - Aveiro VoIP Investigação Cientifica [Local]
 IC1 - 10.0.49.1/24

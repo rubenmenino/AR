@@ -1627,34 +1627,39 @@
                 "properties": {
                     "ports_mapping": [
                         {
+                            "ethertype": "",
                             "name": "Ethernet0",
                             "port_number": 0,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet1",
                             "port_number": 1,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet2",
                             "port_number": 2,
-                            "type": "access",
-                            "vlan": 1
+                            "type": "dot1q",
+                            "vlan": 46
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet3",
                             "port_number": 3,
-                            "type": "access",
-                            "vlan": 1
+                            "type": "dot1q",
+                            "vlan": 32
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet4",
                             "port_number": 4,
-                            "type": "access",
-                            "vlan": 1
+                            "type": "dot1q",
+                            "vlan": 29
                         },
                         {
                             "name": "Ethernet5",
@@ -1709,7 +1714,7 @@
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
                 "x": -505,
-                "y": -406,
+                "y": -405,
                 "z": 1
             },
             {
@@ -1908,34 +1913,39 @@
                 "properties": {
                     "ports_mapping": [
                         {
+                            "ethertype": "",
                             "name": "Ethernet0",
                             "port_number": 0,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet1",
                             "port_number": 1,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet2",
                             "port_number": 2,
-                            "type": "access",
-                            "vlan": 1
+                            "type": "dot1q",
+                            "vlan": 46
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet3",
                             "port_number": 3,
-                            "type": "access",
-                            "vlan": 1
+                            "type": "dot1q",
+                            "vlan": 19
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet4",
                             "port_number": 4,
-                            "type": "access",
-                            "vlan": 1
+                            "type": "dot1q",
+                            "vlan": 21
                         },
                         {
                             "name": "Ethernet5",
@@ -2163,7 +2173,7 @@
                 "width": 51,
                 "x": -53,
                 "y": -24,
-                "z": 1
+                "z": 2
             },
             {
                 "compute_id": "local",
@@ -2379,8 +2389,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": -145,
-                "y": 269,
+                "x": -142,
+                "y": 387,
                 "z": 1
             },
             {
@@ -2628,7 +2638,7 @@
                 "width": 65,
                 "x": 793,
                 "y": 200,
-                "z": 1
+                "z": 2
             },
             {
                 "compute_id": "local",

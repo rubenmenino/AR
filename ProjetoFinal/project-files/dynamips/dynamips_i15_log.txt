@@ -1,0 +1,85 @@
+Jun 21 19:34:03.508 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 21 19:34:03.510 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51465.
+Jun 21 19:34:03.977 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 19:34:03.978 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips 
+Jun 21 19:34:03.978 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips
+Jun 21 19:34:03.979 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\507e83a0-670a-4d64-816b-fb24c1685ee3 
+Jun 21 19:34:03.979 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\507e83a0-670a-4d64-816b-fb24c1685ee3
+Jun 21 19:34:03.980 HYPERVISOR: exec_cmd: vm create Lisboa1 12 c7200 
+Jun 21 19:34:03.983 VM: VM Lisboa1 created.
+Jun 21 19:34:03.984 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisboa1 5064 
+Jun 21 19:34:03.984 HYPERVISOR: exec_cmd: c7200 get_mac_addr Lisboa1 
+Jun 21 19:34:03.984 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:34:03.985 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa1 0 0 C7200-IO-FE 
+Jun 21 19:34:03.985 HYPERVISOR: exec_cmd: vm set_disk0 Lisboa1 0 
+Jun 21 19:34:03.986 HYPERVISOR: exec_cmd: vm set_exec_area Lisboa1 64 
+Jun 21 19:34:03.986 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:34:03.987 HYPERVISOR: exec_cmd: vm set_idle_pc Lisboa1 0x601712a8 
+Jun 21 19:34:03.988 HYPERVISOR: exec_cmd: vm set_ios Lisboa1 C:/Users/Utilizador/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 19:34:03.989 HYPERVISOR: exec_cmd: c7200 set_mac_addr Lisboa1 ca0c.36a0.0000 
+Jun 21 19:34:03.989 HYPERVISOR: exec_cmd: vm set_nvram Lisboa1 512 
+Jun 21 19:34:03.990 HYPERVISOR: exec_cmd: vm set_ram Lisboa1 512 
+Jun 21 19:34:03.990 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:34:03.990 HYPERVISOR: exec_cmd: vm slot_remove_binding Lisboa1 0 0 
+Jun 21 19:34:03.991 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:34:03.991 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa1 0 0 C7200-IO-2FE 
+Jun 21 19:34:03.991 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:34:03.992 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa1 1 0 PA-2FE-TX 
+Jun 21 19:34:15.017 HYPERVISOR: exec_cmd: nio create_udp udp-eb27e5ab-b80d-4407-add3-32400a1b9487 10100 127.0.0.1 10101 
+Jun 21 19:34:15.300 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa1 0 0 udp-eb27e5ab-b80d-4407-add3-32400a1b9487 
+Jun 21 19:34:15.301 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:34:15.953 HYPERVISOR: exec_cmd: nio create_udp udp-ebb04a7f-a09a-4657-9219-79e239d4e29d 10108 127.0.0.1 10109 
+Jun 21 19:34:15.957 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa1 1 0 udp-ebb04a7f-a09a-4657-9219-79e239d4e29d 
+Jun 21 19:34:15.957 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:34:16.594 HYPERVISOR: exec_cmd: nio create_udp udp-b78b4d21-12e0-4483-b581-ab66bc11a1f9 10118 127.0.0.1 10119 
+Jun 21 19:34:16.597 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa1 0 1 udp-b78b4d21-12e0-4483-b581-ab66bc11a1f9 
+Jun 21 19:34:16.598 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:35:13.337 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jun 21 19:35:13.339 VM: VM Ghost created.
+Jun 21 19:35:13.340 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Utilizador/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 19:35:13.341 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 21 19:35:13.341 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost' 
+Jun 21 19:35:13.342 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jun 21 19:35:13.343 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 21 19:35:13.343 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 21 19:35:13.343 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 21 19:35:23.939 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 21 19:35:34.487 VM: VM Ghost shutdown.
+Jun 21 19:35:34.487 VM: VM Ghost destroyed.
+Jun 21 19:35:34.583 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:35:34.586 HYPERVISOR: exec_cmd: vm set_config Lisboa1 configs\i12_startup-config.cfg configs\i12_private-config.cfg 
+Jun 21 19:35:34.586 HYPERVISOR: exec_cmd: vm start Lisboa1 
+Jun 21 19:36:28.121 HYPERVISOR: exec_cmd: vm extract_config Lisboa1 
+Jun 21 19:36:58.150 HYPERVISOR: exec_cmd: vm extract_config Lisboa1 
+Jun 21 19:39:39.871 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:39:39.872 HYPERVISOR: exec_cmd: vm stop Lisboa1 
+Jun 21 19:39:40.136 VM: VM Lisboa1 shutdown.
+Jun 21 19:39:40.138 HYPERVISOR: exec_cmd: vm extract_config Lisboa1 
+Jun 21 19:47:59.383 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jun 21 19:47:59.385 VM: VM Ghost created.
+Jun 21 19:47:59.386 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Utilizador/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 19:47:59.387 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 21 19:47:59.387 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost' 
+Jun 21 19:47:59.388 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jun 21 19:47:59.388 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 21 19:47:59.389 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 21 19:47:59.389 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 21 19:48:10.158 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 21 19:48:19.168 VM: VM Ghost shutdown.
+Jun 21 19:48:19.168 VM: VM Ghost destroyed.
+Jun 21 19:48:19.191 HYPERVISOR: exec_cmd: vm get_status Lisboa1 
+Jun 21 19:48:19.195 HYPERVISOR: exec_cmd: vm set_config Lisboa1 configs\i12_startup-config.cfg configs\i12_private-config.cfg 
+Jun 21 19:48:19.195 HYPERVISOR: exec_cmd: vm start Lisboa1 
+Jun 21 19:48:26.646 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jun 21 19:48:26.648 VM: VM Ghost created.
+Jun 21 19:48:26.650 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Utilizador/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 19:48:26.650 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 21 19:48:26.651 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost' 
+Jun 21 19:48:26.651 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jun 21 19:48:26.652 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 21 19:48:26.652 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 21 19:48:26.653 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 21 19:48:38.458 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 21 19:48:47.757 VM: VM Ghost shutdown.
+Jun 21 19:48:47.757 VM: VM Ghost destroyed.
+Jun 21 19:48:48.020 HYPERVISOR: exec_cmd: vm get_status Lisboa1 

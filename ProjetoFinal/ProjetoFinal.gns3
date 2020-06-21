@@ -807,37 +807,6 @@
             },
             {
                 "filters": {},
-                "link_id": "96084050-a5b5-4c80-ad34-9a156d191158",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e2",
-                            "x": 75,
-                            "y": 21
-                        },
-                        "node_id": "b6ebb348-1f56-4a5a-aa3a-6317f21eed4c",
-                        "port_number": 2
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -7,
-                            "y": 23
-                        },
-                        "node_id": "a2cd3934-5c74-4b0e-a319-b1c7344e4ebb",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "56b4801b-4166-4ba4-9101-ec789c1d7515",
                 "nodes": [
                     {
@@ -1483,6 +1452,37 @@
                         },
                         "node_id": "5095292e-002d-40a7-88c4-e08527ac6f4c",
                         "port_number": 6
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "0c92057b-78d6-4fa0-9347-9e9dfaf2c941",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 75,
+                            "y": 15
+                        },
+                        "node_id": "b6ebb348-1f56-4a5a-aa3a-6317f21eed4c",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -7,
+                            "y": 29
+                        },
+                        "node_id": "04e7f991-5b10-4ee5-944e-988ceb690fa2",
+                        "port_number": 0
                     }
                 ],
                 "suspend": false
@@ -2613,35 +2613,6 @@
             },
             {
                 "compute_id": "local",
-                "console": 5062,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "BostonAdminPC",
-                    "x": -22,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "BostonAdminPC",
-                "node_id": "a2cd3934-5c74-4b0e-a319-b1c7344e4ebb",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": 793,
-                "y": 200,
-                "z": 2
-            },
-            {
-                "compute_id": "local",
                 "console": 5064,
                 "console_auto_start": false,
                 "console_type": "telnet",
@@ -3025,11 +2996,40 @@
                 "x": -540,
                 "y": -299,
                 "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5006,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "BostonAdminPC",
+                    "x": -22,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "BostonAdminPC",
+                "node_id": "04e7f991-5b10-4ee5-944e-988ceb690fa2",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": 835,
+                "y": 201,
+                "z": 1
             }
         ]
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.7",
-    "zoom": 62
+    "version": "2.2.5",
+    "zoom": 44
 }

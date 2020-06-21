@@ -1,0 +1,55 @@
+Jun 21 19:33:58.881 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 21 19:33:58.883 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51440.
+Jun 21 19:33:59.324 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 19:33:59.324 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips 
+Jun 21 19:33:59.324 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips
+Jun 21 19:33:59.325 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\9eb36cb4-253c-4a5b-93c8-eecc42514d35 
+Jun 21 19:33:59.327 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\9eb36cb4-253c-4a5b-93c8-eecc42514d35
+Jun 21 19:33:59.327 HYPERVISOR: exec_cmd: vm create CORE1 5 c3725 
+Jun 21 19:33:59.330 VM: VM CORE1 created.
+Jun 21 19:33:59.331 HYPERVISOR: exec_cmd: vm set_con_tcp_port CORE1 5053 
+Jun 21 19:33:59.331 HYPERVISOR: exec_cmd: c3725 get_mac_addr CORE1 
+Jun 21 19:33:59.331 HYPERVISOR: exec_cmd: vm set_disk0 CORE1 1 
+Jun 21 19:33:59.334 HYPERVISOR: exec_cmd: vm set_exec_area CORE1 64 
+Jun 21 19:33:59.335 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:33:59.335 HYPERVISOR: exec_cmd: vm set_idle_pc CORE1 0x60a6a1e0 
+Jun 21 19:33:59.336 HYPERVISOR: exec_cmd: vm set_ios CORE1 C:/Users/Utilizador/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 21 19:33:59.337 HYPERVISOR: exec_cmd: c3725 set_mac_addr CORE1 c205.0bf4.0000 
+Jun 21 19:33:59.337 HYPERVISOR: exec_cmd: vm set_nvram CORE1 256 
+Jun 21 19:33:59.339 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:33:59.340 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 1 0 NM-16ESW 
+Jun 21 19:34:08.906 HYPERVISOR: exec_cmd: nio create_udp udp-b5a32983-a92d-4ccb-980d-154325ae940e 10016 127.0.0.1 10017 
+Jun 21 19:34:09.199 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 0 udp-b5a32983-a92d-4ccb-980d-154325ae940e 
+Jun 21 19:34:09.200 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:10.258 HYPERVISOR: exec_cmd: nio create_udp udp-a3e57d98-68f8-4935-9eee-f17ee470f834 10028 127.0.0.1 10029 
+Jun 21 19:34:10.263 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 1 udp-a3e57d98-68f8-4935-9eee-f17ee470f834 
+Jun 21 19:34:10.264 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:10.995 HYPERVISOR: exec_cmd: nio create_udp udp-75f484d4-dfd5-4a4a-be73-9dc88d42ac28 10040 127.0.0.1 10041 
+Jun 21 19:34:11.001 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 2 udp-75f484d4-dfd5-4a4a-be73-9dc88d42ac28 
+Jun 21 19:34:11.002 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:12.399 HYPERVISOR: exec_cmd: nio create_udp udp-63965555-7150-4d2b-9096-870729320bf7 10064 127.0.0.1 10065 
+Jun 21 19:34:12.402 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 3 udp-63965555-7150-4d2b-9096-870729320bf7 
+Jun 21 19:34:12.403 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:19.868 HYPERVISOR: exec_cmd: nio create_udp udp-ead987a5-10c6-48d8-8d65-c93c5e5279cc 10168 127.0.0.1 10169 
+Jun 21 19:34:19.872 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 4 udp-ead987a5-10c6-48d8-8d65-c93c5e5279cc 
+Jun 21 19:34:19.872 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:20.103 HYPERVISOR: exec_cmd: nio create_udp udp-23192c8b-f533-4638-b1f6-0c6b6bd6f61f 10176 127.0.0.1 10177 
+Jun 21 19:34:20.106 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 5 udp-23192c8b-f533-4638-b1f6-0c6b6bd6f61f 
+Jun 21 19:34:20.107 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:20.313 HYPERVISOR: exec_cmd: nio create_udp udp-07b25a13-42bb-49f0-af8e-5ebc9501ac13 10182 127.0.0.1 10183 
+Jun 21 19:34:20.317 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 6 udp-07b25a13-42bb-49f0-af8e-5ebc9501ac13 
+Jun 21 19:34:20.317 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:32.324 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 21 19:34:32.325 VM: VM Ghost created.
+Jun 21 19:34:32.326 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Utilizador/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 21 19:34:32.327 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 21 19:34:32.328 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips\c3725-advipservicesk9-mz.124-21.image-128.ghost' 
+Jun 21 19:34:32.328 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 21 19:34:32.332 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 21 19:34:32.332 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 21 19:34:42.340 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 21 19:34:42.377 VM: VM Ghost shutdown.
+Jun 21 19:34:42.377 VM: VM Ghost destroyed.
+Jun 21 19:34:42.404 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Jun 21 19:34:42.408 HYPERVISOR: exec_cmd: vm set_config CORE1 configs\i5_startup-config.cfg 
+Jun 21 19:34:42.408 HYPERVISOR: exec_cmd: vm start CORE1 

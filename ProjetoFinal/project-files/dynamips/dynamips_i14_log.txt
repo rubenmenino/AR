@@ -1,0 +1,20 @@
+Jun 21 19:34:02.968 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 21 19:34:02.970 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51461.
+Jun 21 19:34:03.394 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 19:34:03.394 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips 
+Jun 21 19:34:03.394 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips
+Jun 21 19:34:03.395 HYPERVISOR: exec_cmd: ethsw create Switch4 
+Jun 21 19:34:14.006 HYPERVISOR: exec_cmd: nio create_udp udp-bd4de331-fece-4151-83f7-20d3e0a969f9 10083 127.0.0.1 10082 
+Jun 21 19:34:14.007 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-bd4de331-fece-4151-83f7-20d3e0a969f9 
+Jun 21 19:34:14.012 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-bd4de331-fece-4151-83f7-20d3e0a969f9 1 
+Jun 21 19:34:14.203 HYPERVISOR: exec_cmd: nio create_udp udp-fca20646-d8fe-4b47-ba45-68a10cf93428 10087 127.0.0.1 10086 
+Jun 21 19:34:14.204 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-fca20646-d8fe-4b47-ba45-68a10cf93428 
+Jun 21 19:34:14.223 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-fca20646-d8fe-4b47-ba45-68a10cf93428 1 
+Jun 21 19:34:14.416 HYPERVISOR: exec_cmd: nio create_udp udp-612f511c-6e9f-4387-b68c-48fe372b5dd3 10090 127.0.0.1 10091 
+Jun 21 19:34:14.417 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-612f511c-6e9f-4387-b68c-48fe372b5dd3 
+Jun 21 19:34:14.432 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-612f511c-6e9f-4387-b68c-48fe372b5dd3 1 
+Jun 21 19:50:33.774 HYPERVISOR: exec_cmd: ethsw remove_nio Switch4 udp-612f511c-6e9f-4387-b68c-48fe372b5dd3 
+Jun 21 19:50:33.781 HYPERVISOR: exec_cmd: nio delete udp-612f511c-6e9f-4387-b68c-48fe372b5dd3 
+Jun 21 19:51:02.971 HYPERVISOR: exec_cmd: nio create_udp udp-024d0255-6bf0-406f-9bd5-cbc2d04aeac9 10090 127.0.0.1 10091 
+Jun 21 19:51:02.972 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-024d0255-6bf0-406f-9bd5-cbc2d04aeac9 
+Jun 21 19:51:02.991 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-024d0255-6bf0-406f-9bd5-cbc2d04aeac9 1 

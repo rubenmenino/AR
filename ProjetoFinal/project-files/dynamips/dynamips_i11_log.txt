@@ -1,0 +1,24 @@
+Jun 21 19:34:01.245 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 21 19:34:01.246 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51452.
+Jun 21 19:34:01.694 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 19:34:01.695 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips 
+Jun 21 19:34:01.696 GENERAL: working_dir=C:\Users\Utilizador\Desktop\UNIVERSIDADE\2Semestre\AR\PROJETO\Parte2\AR-Projeto\ProjetoFinal\project-files\dynamips
+Jun 21 19:34:01.697 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Jun 21 19:34:12.575 HYPERVISOR: exec_cmd: nio create_udp udp-a19eeab7-3a90-46b0-981a-8a6da61d4757 10066 127.0.0.1 10067 
+Jun 21 19:34:12.576 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-a19eeab7-3a90-46b0-981a-8a6da61d4757 
+Jun 21 19:34:12.585 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-a19eeab7-3a90-46b0-981a-8a6da61d4757 1 
+Jun 21 19:34:12.767 HYPERVISOR: exec_cmd: nio create_udp udp-56c84ebc-4b75-4150-a57a-e9d321cb3453 10070 127.0.0.1 10071 
+Jun 21 19:34:12.768 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-56c84ebc-4b75-4150-a57a-e9d321cb3453 
+Jun 21 19:34:12.774 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-56c84ebc-4b75-4150-a57a-e9d321cb3453 1 
+Jun 21 19:34:12.963 HYPERVISOR: exec_cmd: nio create_udp udp-7670081e-3271-4ba9-b4c1-36d3d8a18922 10074 127.0.0.1 10075 
+Jun 21 19:34:12.967 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-7670081e-3271-4ba9-b4c1-36d3d8a18922 
+Jun 21 19:34:12.983 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-7670081e-3271-4ba9-b4c1-36d3d8a18922 1 
+Jun 21 19:34:13.456 HYPERVISOR: exec_cmd: nio create_udp udp-53f077b6-106d-49da-83c9-15de029c8953 10078 127.0.0.1 10079 
+Jun 21 19:34:13.457 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-53f077b6-106d-49da-83c9-15de029c8953 
+Jun 21 19:34:13.466 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-53f077b6-106d-49da-83c9-15de029c8953 1 
+Jun 21 19:34:14.994 HYPERVISOR: exec_cmd: nio create_udp udp-072087e7-fa04-47d9-bfde-ab95007507d9 10098 127.0.0.1 10099 
+Jun 21 19:34:14.994 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-072087e7-fa04-47d9-bfde-ab95007507d9 
+Jun 21 19:34:15.002 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-072087e7-fa04-47d9-bfde-ab95007507d9 1 
+Jun 21 19:34:15.473 HYPERVISOR: exec_cmd: nio create_udp udp-104269f1-7842-4e23-b1c4-dbc75b2b302d 10102 127.0.0.1 10103 
+Jun 21 19:34:15.473 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-104269f1-7842-4e23-b1c4-dbc75b2b302d 
+Jun 21 19:34:15.484 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-104269f1-7842-4e23-b1c4-dbc75b2b302d 1 

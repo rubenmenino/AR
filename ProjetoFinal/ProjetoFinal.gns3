@@ -2205,7 +2205,7 @@
                     "dynamips_id": 8,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "0x601712a8",
+                    "idlepc": "0x0",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.151-4.M2.image",
                     "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
@@ -2651,12 +2651,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Lisboa2",
-                    "x": 4,
+                    "text": "Lisboa1",
+                    "x": 6,
                     "y": -25
                 },
                 "locked": false,
-                "name": "Lisboa2",
+                "name": "Lisboa1",
                 "node_id": "507e83a0-670a-4d64-816b-fb24c1685ee3",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -2720,12 +2720,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Lisboa1",
-                    "x": 4,
+                    "text": "Lisboa2",
+                    "x": 6,
                     "y": -25
                 },
                 "locked": false,
-                "name": "Lisboa1",
+                "name": "Lisboa2",
                 "node_id": "daa41162-b7b5-46bf-8efb-d9793409e7d2",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -2774,8 +2774,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "e9d9960e-3a9a-4e8a-b4e9-34b33dd71eac",
                 "width": 66,
-                "x": -724,
-                "y": 295,
+                "x": -730,
+                "y": 291,
                 "z": 1
             },
             {
@@ -2802,9 +2802,10 @@
                 "properties": {
                     "ports_mapping": [
                         {
+                            "ethertype": "",
                             "name": "Ethernet0",
                             "port_number": 0,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
@@ -3029,6 +3030,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.5",
+    "version": "2.2.7",
     "zoom": 62
 }

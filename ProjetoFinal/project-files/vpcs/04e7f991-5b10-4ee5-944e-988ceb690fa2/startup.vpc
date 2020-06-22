@@ -1,9 +1,2 @@
-# This the configuration for BostonAdminPC
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname BostonAdminPC
+set pcname VPCS
+ip 10.65.48.10 10.65.48.2 24

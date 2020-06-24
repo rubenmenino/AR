@@ -39,7 +39,7 @@
                 "drawing_id": "e7cd27c7-e0e6-4f47-bd23-f3f157d51432",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"2\" width=\"1015\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"1015\" y1=\"0\" y2=\"-2\" /></svg>",
+                "svg": "<svg height=\"0\" width=\"987\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"987\" y1=\"0\" y2=\"0\" /></svg>",
                 "x": -551,
                 "y": 337,
                 "z": 1
@@ -48,7 +48,7 @@
                 "drawing_id": "8181464d-507a-4c73-b074-878bff5da2f7",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"809\" width=\"0\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"809\" /></svg>",
+                "svg": "<svg height=\"820\" width=\"0\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"820\" /></svg>",
                 "x": 427,
                 "y": -486,
                 "z": 1
@@ -1280,8 +1280,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 72,
-                            "y": 30
+                            "x": 56,
+                            "y": 36
                         },
                         "node_id": "a4e273c0-39d2-41d3-8099-4c0017d2dd1a",
                         "port_number": 0
@@ -1979,7 +1979,7 @@
                 "template_id": "9fe15a6a-f041-47fd-9cb4-b3465e2f15c8",
                 "width": 51,
                 "x": 263,
-                "y": -195,
+                "y": -187,
                 "z": 1
             },
             {
@@ -3087,8 +3087,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "e9d9960e-3a9a-4e8a-b4e9-34b33dd71eac",
                 "width": 66,
-                "x": -540,
-                "y": -299,
+                "x": -538,
+                "y": -301,
                 "z": 1
             },
             {

@@ -75,7 +75,7 @@
                 "drawing_id": "59a2d85d-23a4-4d53-aae8-8b7af63be00b",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"1\" width=\"480\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"480\" y1=\"0\" y2=\"-1\" /></svg>",
+                "svg": "<svg height=\"1\" width=\"474\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"474\" y1=\"0\" y2=\"-1\" /></svg>",
                 "x": 486,
                 "y": 467,
                 "z": 1
@@ -84,9 +84,9 @@
                 "drawing_id": "eb3ac847-b3e4-454f-a1d0-dd95daa920cf",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"0\" width=\"469\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"469\" y1=\"0\" y2=\"0\" /></svg>",
-                "x": 489,
-                "y": 63,
+                "svg": "<svg height=\"0\" width=\"482\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"482\" y1=\"0\" y2=\"0\" /></svg>",
+                "x": 475,
+                "y": 62,
                 "z": 1
             },
             {
@@ -142,6 +142,15 @@
                 "x": -1001,
                 "y": -171,
                 "z": 2
+            },
+            {
+                "drawing_id": "7720978a-40a1-4554-bcb4-289b297a5978",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"399\" width=\"2\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"2\" y1=\"0\" y2=\"-399\" /></svg>",
+                "x": 958,
+                "y": 463,
+                "z": 1
             }
         ],
         "links": [

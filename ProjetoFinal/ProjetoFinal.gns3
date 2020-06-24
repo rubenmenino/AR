@@ -1283,8 +1283,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/1",
-                            "x": -13,
-                            "y": 14
+                            "x": -23,
+                            "y": -15
                         },
                         "node_id": "4cd1e030-b843-493c-8317-d8347133400b",
                         "port_number": 1
@@ -1813,8 +1813,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "VOIP",
-                    "x": 13,
-                    "y": -25
+                    "x": 11,
+                    "y": -23
                 },
                 "locked": false,
                 "name": "VOIP",

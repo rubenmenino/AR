@@ -1528,8 +1528,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 12,
-                            "y": 56
+                            "x": -36,
+                            "y": 26
                         },
                         "node_id": "05d1bcb6-b37b-472a-a918-173f163817d4",
                         "port_number": 0
@@ -2870,7 +2870,7 @@
                             "ethertype": "",
                             "name": "Ethernet0",
                             "port_number": 0,
-                            "type": "dot1q",
+                            "type": "access",
                             "vlan": 1
                         },
                         {
@@ -3272,6 +3272,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.7",
+    "version": "2.2.5",
     "zoom": 58
 }

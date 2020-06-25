@@ -21,7 +21,7 @@
                 "drawing_id": "57ee75fc-62d4-47c9-ba82-32f0934fad03",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"977\" height=\"0\"><line x1=\"0\" x2=\"977\" y1=\"0\" y2=\"0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg height=\"0\" width=\"977\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"977\" y1=\"0\" y2=\"0\" /></svg>",
                 "x": -550,
                 "y": -487,
                 "z": 1
@@ -39,7 +39,7 @@
                 "drawing_id": "e7cd27c7-e0e6-4f47-bd23-f3f157d51432",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"976\" height=\"2\"><line x1=\"0\" x2=\"976\" y1=\"0\" y2=\"-2\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg height=\"2\" width=\"976\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"976\" y1=\"0\" y2=\"-2\" /></svg>",
                 "x": -551,
                 "y": 337,
                 "z": 1
@@ -48,7 +48,7 @@
                 "drawing_id": "8181464d-507a-4c73-b074-878bff5da2f7",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"0\" height=\"820\"><line x1=\"0\" x2=\"0\" y1=\"0\" y2=\"820\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg height=\"820\" width=\"0\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"820\" /></svg>",
                 "x": 427,
                 "y": -486,
                 "z": 1
@@ -75,7 +75,7 @@
                 "drawing_id": "59a2d85d-23a4-4d53-aae8-8b7af63be00b",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"474\" height=\"1\"><line x1=\"0\" x2=\"474\" y1=\"0\" y2=\"-1\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg height=\"1\" width=\"474\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"474\" y1=\"0\" y2=\"-1\" /></svg>",
                 "x": 480,
                 "y": 465,
                 "z": 1
@@ -84,7 +84,7 @@
                 "drawing_id": "eb3ac847-b3e4-454f-a1d0-dd95daa920cf",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"482\" height=\"0\"><line x1=\"0\" x2=\"482\" y1=\"0\" y2=\"0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg height=\"0\" width=\"482\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"482\" y1=\"0\" y2=\"0\" /></svg>",
                 "x": 478,
                 "y": 65,
                 "z": 1
@@ -147,7 +147,7 @@
                 "drawing_id": "4ebd04d9-96f9-4abd-9d8d-5f93bfbc1f3f",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"5\" height=\"401\"><line x1=\"0\" x2=\"-5\" y1=\"0\" y2=\"401\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "svg": "<svg height=\"401\" width=\"5\"><line stroke=\"#000000\" stroke-width=\"2\" x1=\"0\" x2=\"-5\" y1=\"0\" y2=\"401\" /></svg>",
                 "x": 962,
                 "y": 64,
                 "z": 1
@@ -2870,25 +2870,28 @@
                             "ethertype": "",
                             "name": "Ethernet0",
                             "port_number": 0,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet1",
                             "port_number": 1,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet2",
                             "port_number": 2,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet3",
                             "port_number": 3,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
@@ -3272,6 +3275,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.7",
+    "version": "2.2.5",
     "zoom": 58
 }

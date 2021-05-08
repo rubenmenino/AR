@@ -1,9 +1,0 @@
-- Premium Class (EF)
-VLAN 21 (DataPC IC) - 10.1.49.0/24
-
-- Gold Class (AF11)
-VLAN 19 (VoIP  IC) -  10.0.49.0/24
-VLAN 32(DataPC PS) -  10.1.50.0/24
-
-- Silver Class (AF23)
-VLAN 29(VoIP PS)-     10.0.50.0/24
